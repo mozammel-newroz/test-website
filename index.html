@@ -8,17 +8,17 @@
 
     <!-- Stylesheets
 	============================================= -->
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Mukta+Vaani:300,400,500,600,700|Open+Sans:300,400,600,700,800,900"
       rel="stylesheet"
       type="text/css"
-    />
+    /> -->
     
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&display=swap" rel="stylesheet"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
@@ -65,11 +65,13 @@
       type="text/css"
       href="include/rs-plugin/css/navigation.css"
     />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- <link rel="stylesheet" href="./css/social.css"> -->
     <link rel="stylesheet" href="./css/custom.css" />
 
     <!-- Document Title
@@ -113,62 +115,13 @@
       <div class="container-fluid clearfix">
         <!-- Primary Navigation
 		============================================= -->
-        <div>
+        <header>
           <div class="app_header">
             <div class="menu_top_wrapper">
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
-                    <!-- <div class="menu_top">
-                      <div class="">Welcome to Thybeen Limousine</div>
-                      <div class="buttons">
-                        <a
-                          href="#"
-                          class="social_icon"
-                          title="Join us on Facebook"
-                          ><i class="fa fa-facebook" aria-hidden="true"></i
-                        ></a>
-                        <a
-                          href="#"
-                          class="social_icon"
-                          title="Join us on Twitter"
-                          ><i class="fa fa-twitter" aria-hidden="true"></i
-                        ></a>
-                        <a
-                          href="#"
-                          class="social_icon"
-                          title="Join us on Google+"
-                          ><i class="fa fa-google-plus" aria-hidden="true"></i
-                        ></a>
-                        <a
-                          href="#"
-                          class="social_icon"
-                          title="Join us on Dribbble"
-                          ><i class="fa fa-dribbble" aria-hidden="true"></i
-                        ></a>
-                        <a href="#" class="social_icon" title="Join us on Vimeo"
-                          ><i class="fa fa-vimeo" aria-hidden="true"></i
-                        ></a>
-                        <a
-                          href="#"
-                          class="social_icon"
-                          title="Join us on Pinterest"
-                          ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                        ></a>
-                        <a
-                          href="#"
-                          class="social_icon"
-                          title="Join us on Instagram"
-                          ><i class="fa fa-instagram" aria-hidden="true"></i
-                        ></a>
-                        <a
-                          href="#"
-                          class="social_icon"
-                          title="Join us on Linked In"
-                          ><i class="fa fa-linkedin" aria-hidden="true"></i
-                        ></a>
-                      </div>
-                    </div> -->
+                   
                     <div class="menu_top"></div>
                   </div>
                 </div>
@@ -179,8 +132,13 @@
 								<div class="col-lg-12">
 									<div class="menu_middle">
 										<div class="logo">
-											<img src="./atl/images/logo.png" alt="" />
+											<a href="index.html">
+                        <img src="./atl/images/logo.png" alt="" />
+                      </a>
 										</div>
+										<!-- <div class="logo_mobile">
+											<img src="./atl/images/logo@2x.png" alt="" />
+										</div> -->
 										<div class="menu_middle_second">
                       <div class="middle_content second">
                         <div class="">
@@ -258,6 +216,17 @@
 								</div>
 							</div>
 						</div>
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+            <nav id="primary-menu" class="with-arrows clearfix">
+              <ul>
+                <li class="current"><a href="index.html"><div>Home</div></a></li>
+                <li><a href="company.html"><div>Our Company</div></a></li>
+                <li><a href="services.html"><div>Our Services</div></a></li>
+                <li><a href="rates.html"><div>Limo Rates</div></a></li>
+                <li><a href="contact.html"><div>Contact Us</div></a></li>
+              </ul>
+            </nav>
             <nav class="primary-menu" >
               <ul >
                 <li class="current">
@@ -279,7 +248,16 @@
             </nav>
           </div>
         </div>
-      </div>
+        <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      </header>
       <!-- #header end -->
 
       <!-- Slider
@@ -300,16 +278,7 @@
                 background-size: cover;
               "
             >
-              <div class="container clearfix">
-                <!--
-
-							<div class="slider-caption top-left center">
-								<h2 class="font-primary nott">Al Thybeen Limousine</h2>
-								<p class="t300 font-primary d-none d-sm-block">Our priority: your satisfaction for all your journeys</p>
-								<a href="atl/car-single.html" class="button button-rounded button-border button-white button-light nott">View Details</a>
-							</div>
-			-->
-              </div>
+            
             </div>
             <div
               class="swiper-slide dark"
@@ -318,15 +287,7 @@
                 background-size: cover;
               "
             >
-              <div class="container clearfix">
-                <!--						
-							<div class="slider-caption center">
-								<h2 class="font-primary nott">Chevrolet Traverse</h2>
-								<p class="t300 font-primary d-none d-sm-block">New and Powerful SUV</p>
-								<a href="atl/car-single.html" class="button button-rounded button-border button-white button-light nott">View Details</a>
-							</div>
-		-->
-              </div>
+              
             </div>
             <div
               class="swiper-slide dark"
@@ -354,74 +315,7 @@
 		============================================= -->
       <section id="content" class="clearfix">
         <div class="content-wrap nobottompadding" style="padding-top: 1px">
-          <!-- Masonry Thums
-				============================================= -->
-          <!-- <div
-            class="row m-0 dark clearfix"
-            data-height-xs="500"
-            data-height-sm="500"
-            data-height-md="350"
-            data-height-lg="350"
-            data-height-xl="350"
-          >
-            <a
-              href="#"
-              class="col-md-4 image_fade border-right"
-              style="
-                background: url('atl/images/categories/1.jpg') no-repeat center
-                  center / cover;
-              "
-            >
-              <div class="overlay">
-                <div class="text-overlay">
-                  <div class="text-overlay-title">
-                    <h3>Enjoy Al Thybeen</h3>
-                  </div>
-                  <div class="text-overlay-meta">
-                    <span>Premium Limousine Services</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="#"
-              class="col-md-4 image_fade p-0 border-right"
-              style="
-                background: url('atl/images/categories/2.jpg') no-repeat center
-                  center / cover;
-              "
-            >
-              <div class="overlay">
-                <div class="text-overlay">
-                  <div class="text-overlay-title">
-                    <h3>Comfortable Travel</h3>
-                  </div>
-                  <div class="text-overlay-meta">
-                    <span>with your Personal Skilled Driver</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="#"
-              class="col-md-4 image_fade p-0"
-              style="
-                background: url('atl/images/categories/3.jpg') no-repeat center
-                  center / cover;
-              "
-            >
-              <div class="overlay">
-                <div class="text-overlay">
-                  <div class="text-overlay-title">
-                    <h3>Our Experienced Drivers</h3>
-                  </div>
-                  <div class="text-overlay-meta">
-                    <span>will pickup from your place on time!</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div> -->
+          
 
           <section class="third_section" >
             <div class="container clearfix">
@@ -605,7 +499,7 @@
                     <h3
                       style="
                         font-size: 32px;
-                        text-transform: ;
+                        /* text-transform: ; */
                         font-weight: 700;
                       "
                     >
@@ -957,8 +851,8 @@
                   background-size: cover;
                 "
               >
-                <div class="col-padding clearfix" style="padding: 60px;" >
-                  <i class="fa fa-car" style="font-size: 60px; margin-bottom: 15px;" aria-hidden="true"></i>
+                <div class="col-padding clearfix footer_top"  >
+                  <i class="fa fa-car footer_top_icon"  aria-hidden="true"></i>
 
                   <div
                     class="heading-block noborder"
@@ -994,8 +888,8 @@
                   background-size: cover;
                 "
               >
-                <div class="col-padding clearfix" style="padding: 60px;">
-                  <i class="fa fa-thumbs-o-up" style="font-size: 60px; margin-bottom: 15px;" aria-hidden="true"></i>
+              <div class="col-padding clearfix footer_top"  >
+                <i class="fa fa-thumbs-o-up footer_top_icon"  aria-hidden="true"></i>
                   <div
                     class="heading-block noborder"
                     style="margin-bottom: 20px"
