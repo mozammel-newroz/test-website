@@ -249,6 +249,7 @@ label,
   }
   #google_translate_element {
     width: 145px;
+    overflow: hidden;
   }
   #primary-menu-trigger {
     display: block;
