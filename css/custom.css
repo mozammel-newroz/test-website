@@ -58,7 +58,8 @@ label,
 }
 .menu_middle {
   display: flex;
-  padding: 20px 0;
+  padding: 10px 0;
+  align-items: center;
 }
 .menu_middle_second {
   display: flex;
@@ -172,7 +173,8 @@ label,
   /* color: #fff; */
   border-top: 5px solid #d63631;
   /* background: rgba(34, 47, 62,0.7); */
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-color: #FEFEFE;
 }
 .title {
   font-size: 1.1rem;
